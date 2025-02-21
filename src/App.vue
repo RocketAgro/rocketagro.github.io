@@ -12,7 +12,8 @@ import { RouterView } from 'vue-router'
 // Import Bulma
 // @use 'bulma/bulma';
 @use 'bulma/sass/utilities/initial-variables' with (
-  $gap: 10px
+  $gap: 10px,
+  // $size_1: 32px, $size_2: 28px, $size_3: 24px, $size_4: 20px, $size_5: 16px, $size_6: 12px, $size_7: 10px,
 );
 
 @use 'bulma/sass/themes';
@@ -30,8 +31,9 @@ import { RouterView } from 'vue-router'
 //   $column-gap: 5px
 // );
 // @forward "layout";
-// @use 'bulma/sass/layout/container';
-// @use 'bulma/sass/layout/hero';
+@use 'bulma/sass/layout/container';
+@use 'bulma/sass/layout/hero';
+@use 'bulma/sass/layout/section';
 // @forward "base/skeleton";
 @use 'bulma/sass/helpers';
 // End Import
