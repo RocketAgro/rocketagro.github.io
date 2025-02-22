@@ -25,6 +25,7 @@ import { RouterView } from 'vue-router'
 // @forward "form";
 // @forward "components";
 @use 'bulma/sass/components/navbar';
+@use 'bulma/sass/components/card';
 // @forward "grid";
 @use 'bulma/sass/grid/columns' with (
   $column-gap: 5px
