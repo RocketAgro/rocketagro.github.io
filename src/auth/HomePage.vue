@@ -297,10 +297,17 @@ useMeta({
               target="_blank"
               href="https://www.facebook.com/findRocketAgro"
               class="button is-dark is-outlined"
-              >🔗 Facebook</a
             >
+              🔗 Facebook
+            </a>
             &nbsp; <button class="button is-dark is-outlined">🔗 Twitter</button> &nbsp;
-            <button class="button is-dark is-outlined">🔗 LinkedIn</button>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/rocketagro"
+              class="button is-dark is-outlined"
+            >
+              🔗 LinkedIn
+            </a>
             <!-- (If available) -->
           </p>
         </div>

@@ -11,6 +11,6 @@ app.use(createPinia())
 app.use(createMetaManager())
 app.use(router)
 
-await router.isReady()
+router.isReady().then(() => app.mount('#app'))
 
-app.mount('#app')
+// app.mount('#app')
