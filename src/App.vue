@@ -3,6 +3,11 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
+  <metainfo>
+    <template v-slot:title="{ content }">
+      {{ content ? `${content} | SITE_NAME` : `SITE_NAME` }}
+    </template>
+  </metainfo>
   <RouterView />
 </template>
 

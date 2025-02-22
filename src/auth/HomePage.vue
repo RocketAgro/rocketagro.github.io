@@ -1,3 +1,21 @@
+<script setup>
+import { useMeta } from 'vue-meta'
+useMeta({
+  title: 'Ultra-Low-Cost, Open-Source Greenhouses for Bangladeshi Farmers!',
+  description: `High-tech farming doesn’t have to be expensive.
+    We are designing an open-source, DIY greenhouse using local materials
+    — cheaper, durable, and scalable, Faster ROI, better yields and flood-resilient.`,
+})
+</script>
+
+<style lang="scss" scoped>
+.mainHero {
+  background: url('@/assets/banner.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+</style>
+
 <template>
   <section class="mainHero hero is-medium">
     <div class="container has-text-left">
@@ -304,11 +322,3 @@
     </div>
   </section>
 </template>
-
-<style lang="scss">
-.mainHero {
-  background: url('@/assets/banner.jpg');
-  background-size: cover;
-  background-position: center center;
-}
-</style>
